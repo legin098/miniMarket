@@ -1,0 +1,15 @@
+.cart__title {
+  color: var(--purple-light);
+  font-size: 20px;
+}
+
+.cart__price {
+  margin: 0 10px 0 auto;
+  display: block;
+  width: max-content;
+  color: var(--purple-light);
+}
+
+.cart__price-span {
+  color: var(--gray);
+}

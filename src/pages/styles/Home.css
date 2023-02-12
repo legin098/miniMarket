@@ -1,0 +1,11 @@
+.home__line {
+  margin-top: 32px;
+}
+
+.home__text {
+  color: var(--gray);
+}
+
+.home__line {
+  margin-bottom: 20px;
+}

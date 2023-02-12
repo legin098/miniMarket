@@ -1,0 +1,19 @@
+.listProducts {
+  padding: 10px;
+}
+
+.listProducts__title {
+  color: var(--purple-light);
+  font-size: 20px;
+}
+
+.listProducts__line {
+  margin-bottom: 20px;
+}
+
+.listProducts__container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}

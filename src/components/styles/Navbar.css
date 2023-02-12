@@ -1,0 +1,33 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: var(--white);
+  z-index: 2;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.navbar__left-container {
+  background-color: var(--purple-light);
+  color: var(--white);
+  padding: 10px;
+  font-size: 40px;
+  border-radius: 14px;
+}
+
+.navbar__cart {
+  background-color: var(--purple-light);
+  color: var(--white);
+  display: flex;
+  padding: 7px;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.navbar__cart {
+  font-size: 18px;
+}

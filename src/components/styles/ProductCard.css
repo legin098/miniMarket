@@ -1,0 +1,24 @@
+.productCard {
+  border: 1px solid gray;
+  transition: box-shadow 300ms ease;
+  cursor: pointer;
+  width: 120px;
+}
+
+.productCard.active {
+  box-shadow: 1px 1px 25px var(--purple-light);
+}
+
+.productCard:hover {
+  box-shadow: 1px 1px 25px var(--purple-light);
+}
+
+.productCard__image {
+  height: 100%;
+}
+
+.productCard img {
+  display: block;
+  object-fit: cover;
+  height: 100%;
+}

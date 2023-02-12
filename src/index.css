@@ -1,0 +1,43 @@
+:root {
+  --purple-light: #9617aa;
+  --purple-dark: #60117e;
+  --gray: #8e8e8e;
+  --blue: #184498;
+  --white: white;
+  --principal-font: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: var(--principal-font);
+  font-size: 18px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}

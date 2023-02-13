@@ -13,7 +13,7 @@ const products: IProduct[] = [
     title: "Camera",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    price: 220,
+    price: 1300000,
   },
   {
     id: 1,
@@ -21,7 +21,7 @@ const products: IProduct[] = [
     title: "Coca-cola",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    price: 5,
+    price: 3000,
   },
   {
     id: 2,
@@ -29,7 +29,7 @@ const products: IProduct[] = [
     title: "Donuts",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    price: 10,
+    price: 9000,
   },
   {
     id: 3,
@@ -37,7 +37,7 @@ const products: IProduct[] = [
     title: "Lens",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    price: 90,
+    price: 600000,
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ const products: IProduct[] = [
     title: "Lip",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    price: 16,
+    price: 16000,
   },
   {
     id: 5,
@@ -53,7 +53,7 @@ const products: IProduct[] = [
     title: "Lotion",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    price: 45,
+    price: 45000,
   },
   {
     id: 6,
@@ -61,7 +61,7 @@ const products: IProduct[] = [
     title: "Oil",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    price: 17,
+    price: 17000,
   },
   {
     id: 7,
@@ -69,7 +69,7 @@ const products: IProduct[] = [
     title: "Sneakers",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    price: 160,
+    price: 450000,
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const products: IProduct[] = [
     title: "Watch",
     description:
       "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum",
-    price: 160,
+    price: 340000,
   },
 ];
 

@@ -19,6 +19,10 @@
   border-radius: 14px;
 }
 
+.navbar__cart-contain {
+  display: flex;
+}
+
 .navbar__cart {
   background-color: var(--purple-light);
   color: var(--white);
@@ -26,8 +30,28 @@
   padding: 7px;
   gap: 5px;
   cursor: pointer;
+  font-size: 18px;
 }
 
-.navbar__cart {
-  font-size: 18px;
+.navbar__cart.with-products {
+  background-color: #f5e8f8;
+  color: var(--purple-light);
+}
+
+.navbar__icon-x-contain {
+  display: flex;
+  width: 32px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--purple-light);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.navbar__cart-price-contain {
+  display: flex;
+}
+
+.navbar__cart-icon {
+  margin-right: 10px;
 }

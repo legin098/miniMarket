@@ -3,6 +3,11 @@
   font-size: 20px;
 }
 
+.cart__footer {
+  display: flex;
+  align-items: center;
+}
+
 .cart__price {
   margin: 0 10px 0 auto;
   display: block;
@@ -12,4 +17,12 @@
 
 .cart__price-span {
   color: var(--gray);
+}
+
+.cart__button {
+  background-color: #1a4594;
+  color: var(--white);
+  padding: 5px;
+  cursor: pointer;
+  border: none;
 }

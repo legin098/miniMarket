@@ -6,13 +6,13 @@ import { formatCurrency } from "../utils/formatCurrency";
 const ProductDetail = () => {
   const productView = useAppSelector((state) => state.products.productView);
   const productsCart = useAppSelector((state) => state.cart);
+  const dispatch = useAppDispatch();
+
 
   const currentProductCart = productsCart.find(
     (product) => product.id === productView.id
   );
   const quantity = currentProductCart?.quantity || 0;
-
-  const dispatch = useAppDispatch();
 
   const handleClickLess = () => {
     dispatch(subtractProduct(productView));

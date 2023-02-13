@@ -22,3 +22,15 @@
   object-fit: cover;
   height: 100%;
 }
+
+.product__quantity {
+  position: absolute;
+  background-color: var(--purple-light);
+  color: var(--white);
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+}

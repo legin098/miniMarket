@@ -5,11 +5,11 @@ export interface IProductCart extends IProduct {
   quantity: number;
 }
 
-const initialState: IProductCart[] = [];
-
 export const cartSlice = createSlice({
   name: "cart",
-  initialState,
+  initialState: localStorage.getItem("cart")
+    ? <IProductCart[]>JSON.parse(<string>localStorage.getItem("cart"))
+    : [],
   reducers: {
     addProduct: (state, action) => {
       const existProductIndex = state.findIndex(
@@ -31,10 +31,14 @@ export const cartSlice = createSlice({
           state.splice(existProductIndex, 1);
         }
       }
+    },
+    deleteProductsCart: (state) => {
+      state.length = 0
+      localStorage.clear()
     }
   },
 });
 
-export const { addProduct, subtractProduct } = cartSlice.actions;
+export const { addProduct, subtractProduct, deleteProductsCart } = cartSlice.actions;
 
 export default cartSlice.reducer;

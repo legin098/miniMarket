@@ -20,6 +20,7 @@ export const cartSlice = createSlice({
       } else {
         state.push({ ...action.payload, quantity: 1 });
       }
+      localStorage.setItem("cart", JSON.stringify(state));
     },
     subtractProduct: (state, action) => {
       const existProductIndex = state.findIndex(
@@ -30,6 +31,7 @@ export const cartSlice = createSlice({
         if (state[existProductIndex].quantity === 0) {
           state.splice(existProductIndex, 1);
         }
+        localStorage.setItem("cart", JSON.stringify(state));
       }
     },
     deleteProductsCart: (state) => {

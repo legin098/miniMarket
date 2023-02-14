@@ -2,7 +2,6 @@ import CartProduct from "../components/CartProduct";
 import "./styles/Cart.css";
 import { useAppSelector } from "../store/hooks/hooks";
 import { formatCurrency } from "../utils/formatCurrency";
-import { useEffect } from "react";
 
 const Cart = () => {
   const products = useAppSelector((state) => state.cart);
@@ -33,10 +32,6 @@ const Cart = () => {
       console.log("Transaction object: ", transaction);
     });
   };
-
-  useEffect(() => {
-    localStorage.setItem("cart", JSON.stringify(products));
-  }, [products]);
 
   return (
     <section className="cart">

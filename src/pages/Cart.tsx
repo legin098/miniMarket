@@ -40,7 +40,7 @@ const Cart = () => {
       <section className="cart__products">{listProducts}</section>
       <div className="cart__footer">
       <button className="cart__button" disabled={!totalPrice} onClick={handleClickPay}>
-          Paga con Wompi
+          Pagar
         </button>
         <h3 className="cart__price">
           <span className="cart__price-span">Total:</span>{" "}

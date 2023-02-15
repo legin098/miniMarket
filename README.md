@@ -15,7 +15,7 @@ You may also see any lint errors in the console.
 
 ### Deploy
 
-The application is deployed in [https://minimarket-jc.surge.sh/](https://minimarket-jc.surge.sh/)
+The application is deployed in [https://minimarket-finished.surge.sh/](https://minimarket-finished.surge.sh/)
 
 ## Dependencies
 "@reduxjs/toolkit": "^1.9.2",
